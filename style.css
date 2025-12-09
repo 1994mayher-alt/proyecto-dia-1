@@ -1,0 +1,89 @@
+/* Estilo general de la página */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+  color: #333;
+  line-height: 1.6;
+  padding: 20px;
+}
+
+/* Título principal */
+h1 {
+  text-align: center;
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+/* Párrafo de presentación */
+p {
+  max-width: 700px;
+  margin: 0 auto 20px auto;
+  font-size: 18px;
+}
+
+/* Imagen principal */
+img {
+  display: block;
+  width: 300px;
+  margin: 20px auto;
+  border-radius: 10px;
+}
+
+/* Enlace tipo botón */
+a {
+  display: inline-block;
+  background-color: #007bff;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 8px;
+  text-decoration: none;
+  margin: 10px auto 30px auto;
+  text-align: center;
+  display: block;
+}
+
+a:hover {
+  text-decoration: underline;
+  background-color: #0056b3;
+}
+
+/* Subtítulos de secciones */
+h2 {
+  text-align: center;
+  margin-top: 30px;
+}
+
+/* Listas */
+ol,
+ul {
+  max-width: 300px;
+  margin: 10px auto 20px auto;
+  font-size: 18px;
+}
+
+/* Tarjeta (card) */
+.card {
+  max-width: 300px;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+  text-align: center;
+}
+
+.card img {
+  width: 100%;
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+
+.card h2 {
+  font-size: 22px;
+  margin-bottom: 10px;
+}
+
+.card p {
+  font-size: 16px;
+  line-height: 1.4;
+}
