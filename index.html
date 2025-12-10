@@ -1,43 +1,77 @@
-<h1>Mi inicio como programador</h1>
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <title>Portafolio de José Mayorga</title>
+  <link rel="stylesheet" href="estilo.css" />
+</head>
+<body>
+  <header class="hero">
+    <div class="hero-texto">
+      <h1>José Mayorga</h1>
+      <p class="subtitulo">Desarrollador web en formación</p>
+      <p class="descripcion">
+        Estoy estudiando programación en mis ratos libres (freeCodeCamp y proyectos propios).
+        Aquí iré guardando mis prácticas y proyectos reales.
+      </p>
+      <a href="#proyectos" class="btn">Ver mis proyectos</a>
+    </div>
 
-<p>
-  Este documento es para reforzar mis clases de HTML y CSS
-  que tomé el día de hoy, las cuales me parecieron muy interesantes.
-</p>
+    <!-- Imagen más pequeña -->
+    <img
+      class="hero-img"
+      src="https://images.pexels.com/photos/1851164/pexels-photo-1851164.jpeg"
+      alt="Perro curioso"
+    />
+  </header>
 
-<img
-  src="https://images.unsplash.com/photo-1517849845537-4d257902454a"
-  alt="Perro feliz"
-/>
+  <main class="contenedor">
+    <section id="sobre-mi">
+      <h2>Sobre mí</h2>
+      <p>
+        Soy José, trabajo en mina y en mi tiempo libre estoy aprendiendo
+        desarrollo web desde cero para poder dedicarme a esto en el futuro.
+        Este portafolio es mi espacio para mostrar lo que voy construyendo día a día.
+      </p>
+    </section>
 
-<a href="https://www.freecodecamp.org" target="_blank">
-  Visitar FreeCodeCamp
-</a>
+    <section id="proyectos">
+      <h2>Proyectos</h2>
 
-<h2>Mis metas como programador</h2>
-<ol>
-  <li>Aprender HTML</li>
-  <li>Aprender CSS</li>
-  <li>Aprender JavaScript</li>
-  <li>Conseguir mi primer trabajo remoto</li>
-</ol>
+      <article class="proyecto">
+        <h3>Proyecto Día 1</h3>
+        <p>
+          Primera práctica de HTML y CSS: estructura básica, imagen y estilos.
+        </p>
+        <div class="proyecto-links">
+          <a href="https://1994mayher-alt.github.io/proyecto-dia-1/" target="_blank">Ver página</a>
+          <a href="https://github.com/1994mayher-alt/proyecto-dia-1" target="_blank">Ver código</a>
+        </div>
+      </article>
 
-<h2>Cosas que me gustan</h2>
-<ul>
-  <li>Pasar tiempo con mi familia</li>
-  <li>Aprender cosas nuevas</li>
-  <li>Mejorar cada día</li>
-  <li>Los caballos 🐎</li>
-</ul>
+      <article class="proyecto">
+        <h3>Proyecto Día 2 (próximamente)</h3>
+        <p>
+          Aquí voy a agregar mi siguiente proyecto de freeCodeCamp o algún mini
+          sitio que haga de práctica.
+        </p>
+      </article>
+    </section>
 
-<div class="card">
-  <img
-    src="https://images.unsplash.com/photo-1517849845537-4d257902454a"
-    alt="Perro feliz"
-  />
-  <h2>Mi primera tarjeta</h2>
-  <p>
-    Esta es una tarjeta creada con HTML y CSS,
-    para practicar mi aprendizaje.
-  </p>
-</div>
+    <section id="contacto">
+      <h2>Contacto</h2>
+      <p>
+        Si quieres ponerte en contacto conmigo, puedes escribirme a:
+      </p>
+      <p class="email">tu-correo@ejemplo.com</p>
+      <p>
+        (Luego cambiamos esto por tu correo real o por un formulario.)
+      </p>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>Hecho con 💻 + ☕ mientras aprendo a programar.</p>
+  </footer>
+</body>
+</html>
